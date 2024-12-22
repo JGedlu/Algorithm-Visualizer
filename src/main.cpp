@@ -17,10 +17,9 @@ int main() {
     cout << "Initial Graph:\n";
     g.displayGraph();
 
-    //removes an edge and display again
-    g.removeEdge(2, 3);
-    cout << "\nAfter removing edge 2 -> 3:\n";
-    g.displayGraph();
+    //runs Dijkstra's Algorithm
+    cout << "\nRunning Dijkstra's Algorithm from node 0:\n";
+    g.dijkstra(0);
 
     return 0;
 }

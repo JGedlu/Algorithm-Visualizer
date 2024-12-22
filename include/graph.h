@@ -18,6 +18,9 @@ public:
     void removeEdge(int from, int to); //removes edge
     void displayGraph() const; //prints graph
 
+    //algorithm functions
+    void dijkstra(int source) const; //finds shortest paths from source node
+
 private:
     int numNodes;
     std::vector<std::vector<std::pair<int, int>>> adjList; //adjacency list
