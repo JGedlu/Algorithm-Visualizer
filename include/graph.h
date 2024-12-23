@@ -19,7 +19,9 @@ public:
     void displayGraph() const; //prints graph
 
     //algorithm functions
-    void dijkstra(int source) const; //finds shortest paths from source node
+    void dijkstra(int source) const;
+    void bfs(int start) const;
+
 
 private:
     int numNodes;

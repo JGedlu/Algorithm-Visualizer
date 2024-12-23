@@ -21,5 +21,9 @@ int main() {
     cout << "\nRunning Dijkstra's Algorithm from node 0:\n";
     g.dijkstra(0);
 
+    // Runs BFS
+    cout << "\nRunning BFS starting from node 0:\n";
+    g.bfs(0);
+
     return 0;
 }
