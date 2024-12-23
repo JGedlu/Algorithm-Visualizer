@@ -1,22 +1,24 @@
-# Ignore build files
+# Ignores build files
 cmake-build-debug/
 cmake-build-release/
 
-# Ignore CLion configuration files
+# Ignores CLion configuration files
 .idea/
+*.iml
 .vscode/
+*.code-workspace
 
-# Ignore logs and temporary files
+# Ignores logs and temporary files
 *.log
 *.tmp
 *.swp
 
-# Ignore OS-specific files
+# Ignores OS-specific files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Ignore compiled files
+# Ignores compiled files
 *.o
 *.obj
 *.so
