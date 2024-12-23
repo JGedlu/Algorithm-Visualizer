@@ -21,7 +21,7 @@ public:
     //algorithm functions
     void dijkstra(int source) const;
     void bfs(int start) const;
-
+    void astar(int start, int goal, const std::vector<std::pair<int, int>>& coordinates) const;
 
 private:
     int numNodes;
